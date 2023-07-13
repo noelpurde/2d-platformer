@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6133615679689410695}
   - component: {fileID: 6694495402190181568}
+  - component: {fileID: 5674142491248648442}
   m_Layer: 0
   m_Name: UIManager
   m_TagString: Untagged
@@ -47,3 +48,105 @@ MonoBehaviour:
   damageTextPrefab: {fileID: 634801371817331587, guid: 2e2e6020701f7994c995e19a3b4f6ec7, type: 3}
   healthTextPrefab: {fileID: 634801371817331587, guid: 802a62ce458fc2b4da4016f89256cb9b, type: 3}
   gameCanvas: {fileID: 0}
+--- !u!114 &5674142491248648442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6562721065422426419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: a69267ade8f3128438ef7efc75a177a2, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f3e5fce1-7dec-415e-91ad-55c225657023
+    m_ActionName: Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 52318c33-76dd-46da-9285-9fde0e21ef1e
+    m_ActionName: Player/Look[/Mouse/delta]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ba03669c-8d58-48a3-a540-546fa9164c39
+    m_ActionName: Player/Attack[/Keyboard/space,/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5fed81d4-2476-48a0-9041-04571c790457
+    m_ActionName: Player/Jump[/Keyboard/w]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 55aa959f-4e9c-44c7-b79b-ae3a60f89bef
+    m_ActionName: UI/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 87629a1e-2db4-4cd9-830a-2be26b26b035
+    m_ActionName: UI/Submit[/Keyboard/enter]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c57b41fa-afbd-4574-8530-060b77d80729
+    m_ActionName: UI/Cancel[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 75deaa20-586b-4ffd-95c2-c7beedfd0137
+    m_ActionName: UI/Point[/Mouse/position]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7ccebf72-389b-4319-854d-f0237fbb9768
+    m_ActionName: UI/Click[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e2e26c96-d4d3-438e-aba1-5cecca0b99ea
+    m_ActionName: UI/ScrollWheel[/Mouse/scroll]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ddaa529f-e008-4ead-acf7-c19bd4eb6ad6
+    m_ActionName: UI/MiddleClick[/Mouse/middleButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 15ec856c-011a-4cf1-8fa9-2c5514e075e5
+    m_ActionName: UI/RightClick[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 18f70cac-2c51-492b-a61c-e32979c0e280
+    m_ActionName: UI/TrackedDevicePosition
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c2538af8-f2c4-4f9d-8264-8c5200f89c40
+    m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6694495402190181568}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: OnExitGame
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c46de6dd-bd84-48cb-a8ee-81bdda98c64a
+    m_ActionName: UI/Escape[/Keyboard/escape]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: UI
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
