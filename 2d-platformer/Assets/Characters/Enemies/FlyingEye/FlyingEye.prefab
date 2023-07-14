@@ -310,6 +310,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flightSpeed: 2
   wingDetectionZone: {fileID: 652635333349513914}
-  waypoints: []
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   waypointReachedDistance: 0.1
   _hasTarget: 0

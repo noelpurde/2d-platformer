@@ -85,8 +85,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3903867026397430003}
   - component: {fileID: 4557339529466122936}
-  - component: {fileID: 4050406582767445522}
-  - component: {fileID: 5065493503873180892}
+  - component: {fileID: 4854276778562515149}
   m_Layer: 10
   m_Name: SwordAttack
   m_TagString: Untagged
@@ -141,7 +140,7 @@ PolygonCollider2D:
       - {x: -1.1748117, y: 0.77804697}
       - {x: -1.0435948, y: -0.4912957}
       - {x: 0.76627517, y: -0.98845804}
---- !u!114 &4050406582767445522
+--- !u!114 &4854276778562515149
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -153,22 +152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db41caaed57784d4f9c3064ef75a72f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 10
-  knockback: {x: 3, y: 3}
---- !u!114 &5065493503873180892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7375181143354207609}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db41caaed57784d4f9c3064ef75a72f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackDamage: 10
-  knockback: {x: 3, y: 3}
+  attackDamage: 25
+  knockback: {x: 0, y: 0}
 --- !u!1 &7475283596569129623
 GameObject:
   m_ObjectHideFlags: 0
